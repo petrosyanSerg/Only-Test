@@ -1,0 +1,15 @@
+@use 'src/assets/scss/mixins' as *;
+
+.event_card {
+  @include flex(column, flex-start, normal);
+  min-width: 320px;
+  min-height: 135px;
+  gap: 15px;
+  &_year {
+    font-size: 25px;
+  }
+
+  &_description {
+    font-size: 20px;
+  }
+}
