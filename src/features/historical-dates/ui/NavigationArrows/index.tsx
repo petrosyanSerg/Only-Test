@@ -8,7 +8,7 @@ export const NavigationArrows = () => {
     <div className='navigation'>
       <p className='navigation_text'>01/06</p>
       <div className="navigation_arrows">
-        <CustomButton>
+        <CustomButton disabled={true}>
           <FaAngleLeft/>
         </CustomButton>
         <CustomButton>
