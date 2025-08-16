@@ -1,0 +1,13 @@
+.custom_button {
+  @include flex();
+  width: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 1px solid rgba(66, 86, 122, 0.5);
+  cursor: pointer;
+
+  &_disabled {
+    cursor: default;
+
+  }
+}

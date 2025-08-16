@@ -1,0 +1,14 @@
+.navigation {
+  @include flex(column, flex-start, normal);
+  gap: 20px;
+
+  &_text {
+    font-size: 14px;
+    color: rgba(66, 86, 122);
+  }
+
+  &_arrows {
+    @include flex(row, flex-start);
+    gap: 20px;
+  }
+}
