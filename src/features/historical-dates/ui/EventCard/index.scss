@@ -1,6 +1,7 @@
 .event_card {
   @include flex(column, flex-start, normal);
   min-width: 320px;
+  max-width: 400px;
   min-height: 135px;
   gap: 15px;
 
@@ -10,6 +11,7 @@
   }
 
   &_description {
+    @include truncate-lines();
     font-size: 20px;
     color: rgba(66, 86, 122);
   }
